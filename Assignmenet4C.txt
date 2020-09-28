@@ -1,0 +1,10 @@
+BEGIN MAIN
+	INT wid = USER INPUT("Width ")
+	PRINTLINE "*" *wid
+	FOR int i=0; i < wid-2; i++
+		PRINT ("*")
+		PRINT (" " * (width -2))
+		PRINTLINE ("*")
+	END FOR
+	PRINT "*" * wid
+END MAIN

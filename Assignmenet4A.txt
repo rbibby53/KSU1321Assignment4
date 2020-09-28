@@ -1,0 +1,13 @@
+BEGIN MAIN
+	INT n1 = User Input("Enter seed 1: ")
+	INT n2 = User Input("Enter seed 2: ")
+	int n3 = 0
+	INT loop = User Input("Number of iterations: ")
+	
+	for (int i < loop; i++){
+		n3 = n1+n2
+		n1 = n2    
+        n2 = n3
+		print (n3+ ", ")
+		}
+END MAIN

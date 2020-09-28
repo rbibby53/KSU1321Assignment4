@@ -1,0 +1,10 @@
+BEGIN MAIN
+	INT Size = User input("Size: ")
+	FOR int i = 0; i<size; i++
+		print "/n"
+		FOR int j = 0; size -i > j; j++
+			print(i * " ")
+			print(" " + j)
+		END FOR
+	END FOR
+END MAIN
